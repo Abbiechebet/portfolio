@@ -45,10 +45,8 @@ ul.navigation li button {
     outline: none;
 }
 .image{
-    border-radius: 20px;
-    border: 5px;
-    border-style: groove;
-    border-color: rgb(101, 106, 116);
+    clip-path: circle();
+    margin-left: -30px;
 }
 div.intro {
     margin-bottom: 50px;
