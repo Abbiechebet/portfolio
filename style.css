@@ -3,8 +3,15 @@
     width: 40%;
     margin: auto;
     background-color: #EEEFF0;
+    border: 40px;
+    border-top-style: solid;
+    border-inline-style: solid;
+    border-image: linear-gradient(50deg,
+    #a3daf7,#f9b1bd) 1;
+    /* border-image-slice: 1; */
     border-radius: 5px;
-    background-image: url("https://th.bing.com/th/id/R.b9024458beb87d4bbee7d29842e2bcdf?rik=OXYozNFp9vjviw&pid=ImgRaw&r=0");
+
+    /* background-image: url("https://th.bing.com/th/id/R.b9024458beb87d4bbee7d29842e2bcdf?rik=OXYozNFp9vjviw&pid=ImgRaw&r=0"); */
 } 
 .nav{
     display: flex;
